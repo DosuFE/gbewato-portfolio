@@ -6,7 +6,7 @@ type ContactSectionProps = {
   title: string;
   email: string;
   github: string;
-  linkedin: string;
+  linkedin?: string;
 };
 
 export const ContactSection: React.FC<ContactSectionProps> = ({
@@ -71,24 +71,26 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
           </span>
         </a>
 
-        <a
-          href={linkedin}
-          target="_blank"
-          rel="noreferrer"
-          className="group flex flex-col justify-between rounded-xl border border-slate-800/80 bg-slate-950/80 px-4 py-3 text-xs text-slate-300 transition-colors hover:border-sky-500/80 hover:bg-slate-900/90"
-        >
-          <div>
-            <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400">
-              LinkedIn
-            </p>
-            <p className="mt-1 break-all text-sm font-medium text-slate-100">
-              {linkedin}
-            </p>
-          </div>
-          <span className="mt-2 text-[11px] text-sky-300 group-hover:text-sky-200">
-            Connect professionally →
-          </span>
-        </a>
+        {linkedin && (
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="group flex flex-col justify-between rounded-xl border border-slate-800/80 bg-slate-950/80 px-4 py-3 text-xs text-slate-300 transition-colors hover:border-sky-500/80 hover:bg-slate-900/90"
+          >
+            <div>
+              <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-400">
+                LinkedIn
+              </p>
+              <p className="mt-1 break-all text-sm font-medium text-slate-100">
+                {linkedin}
+              </p>
+            </div>
+            <span className="mt-2 text-[11px] text-sky-300 group-hover:text-sky-200">
+              Connect professionally →
+            </span>
+          </a>
+        )}
       </div>
     </div>
   );

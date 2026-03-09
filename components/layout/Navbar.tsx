@@ -36,7 +36,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSidebar }) => {
               Dashboard
             </span>
             <span className="text-sm font-semibold text-slate-100">
-              Developer Portfolio
+              Gbewato Portfolio
             </span>
           </div>
         </div>

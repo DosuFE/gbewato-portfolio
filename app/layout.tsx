@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Developer Portfolio Dashboard",
+  title: "Gbewato Portfolio Dashboard",
   description:
-    "Modern, responsive developer portfolio dashboard built with Next.js, React, and Tailwind CSS.",
+    "Modern, responsive portfolio dashboard for Dosu Sulaimon Gbewato built with Next.js, React, and Tailwind CSS.",
 };
 
 export default function RootLayout({

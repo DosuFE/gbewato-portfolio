@@ -39,11 +39,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
       <aside className="hidden w-64 shrink-0 border-r border-slate-800/70 bg-black/40 px-4 py-6 backdrop-blur-xl lg:flex lg:flex-col lg:gap-6">
         <div className="flex items-center gap-3 px-2">
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-indigo-500 text-sm font-semibold text-white shadow-lg shadow-sky-500/40">
-            DL
+            DG
           </div>
           <div className="flex flex-col">
             <span className="text-sm font-medium tracking-tight text-slate-100">
-              Dev Portfolio
+              Gbewato Portfolio
             </span>
             <span className="text-xs text-slate-400">
               Frontend • Learning Backend
@@ -99,11 +99,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className="flex items-center justify-between gap-3 px-1">
           <div className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-indigo-500 text-sm font-semibold text-white shadow-lg shadow-sky-500/40">
-              DL
+              DG
             </div>
             <div className="flex flex-col">
               <span className="text-sm font-medium tracking-tight text-slate-100">
-                Dev Portfolio
+                Gbewato Portfolio
               </span>
               <span className="text-xs text-slate-400">
                 Frontend • Learning Backend

@@ -30,31 +30,40 @@ const skills = [
 
 const projects = [
   {
-    title: "Developer Portfolio Dashboard",
+    title: "REST Countries Explorer",
     description:
-      "A responsive dashboard-style portfolio showcasing skills, projects, and contact details with dark/light theme support.",
-    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-    image: "/dashboard-portfolio.png",
-    githubUrl: "https://github.com/your-username/dashboard-portfolio",
-    liveUrl: "https://your-portfolio-demo.com",
+      "A responsive web application that displays information about countries around the world using the REST Countries API. It includes real-time search, region filtering, and dynamic rendering of population, region, capital, and flag details.",
+    techStack: ["HTML", "CSS", "JavaScript", "REST Countries API"],
+    image: "/rest-countries.png",
+    githubUrl: "https://github.com/DosuFE/rest-countries-api",
+    liveUrl: "https://rest-countries-api-pied-nine.vercel.app/",
   },
   {
-    title: "Frontend Component Library",
+    title: "PlexTV Streaming UI",
     description:
-      "A collection of reusable UI components built with React and Tailwind CSS, focused on developer productivity.",
-    techStack: ["React", "Tailwind CSS", "Storybook"],
-    image: "/component-library.png",
-    githubUrl: "https://github.com/your-username/frontend-components",
-    liveUrl: "https://frontend-components-demo.com",
+      "A responsive streaming platform UI inspired by Netflix, built to practice Tailwind CSS utility classes, layout techniques, and modern landing page design.",
+    techStack: ["HTML", "Tailwind CSS"],
+    image: "/plex-tv.png",
+    githubUrl: "https://github.com/DosuFE/plex",
+    liveUrl: "https://plex-drab.vercel.app/",
   },
   {
-    title: "Interactive Dev Blog",
+    title: "Food Restaurant Web App",
     description:
-      "A modern blog platform for sharing learning notes about frontend and backend development.",
-    techStack: ["Next.js", "MDX", "Tailwind CSS"],
-    image: "/dev-blog.png",
-    githubUrl: "https://github.com/your-username/dev-blog",
-    liveUrl: "https://dev-blog-demo.com",
+      "A modern and responsive restaurant web application built with React and Tailwind CSS. It showcases a component-based architecture, reusable UI components, and dynamic data rendering from a JSON-driven menu.",
+    techStack: ["React", "Tailwind CSS"],
+    image: "/food-restuarant.png",
+    githubUrl: "https://github.com/DosuFE/food-restuarant",
+    liveUrl: "https://food-restuarant.vercel.app/",
+  },
+  {
+    title: "SkinCare Ecommerce",
+    description:
+      "A modern ecommerce frontend for skincare products built with Next.js and Tailwind CSS. It features responsive product listings, clean product cards, and a layout optimized for a smooth shopping experience across devices.",
+    techStack: ["Next.js", "Tailwind CSS"],
+    image: "/skincare-ecommerrce.png",
+    githubUrl: "https://github.com/DosuFE/skincare-ecommerce",
+    liveUrl: "https://skincare-ecommerce-mvp.vercel.app/",
   },
 ];
 
@@ -78,10 +87,10 @@ export default function Home() {
         <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-8 px-4 pb-10 pt-6 sm:px-6 lg:px-8">
           <section id="hero" className="scroll-mt-24">
             <Hero
-              name="Your Name"
+              name="Dosu Sulaiman Gbewato"
               role="Frontend Developer"
-              description="Frontend-focused developer currently learning backend technologies, crafting modern interfaces with React, Next.js, and Tailwind CSS."
-              techStack={["Next.js", "React", "Tailwind CSS", "JavaScript", "HTML", "CSS"]}
+              description="Frontend-focused developer currently learning backend technologies with NestJS, crafting modern interfaces with React, Next.js, and Tailwind CSS."
+              techStack={["Next.js", "React", "Tailwind CSS", "JavaScript", "HTML", "CSS", "NestJS"]}
             />
           </section>
 
@@ -116,9 +125,8 @@ export default function Home() {
           <section id="contact" className="scroll-mt-24">
             <ContactSection
               title="Let’s build something"
-              email="your.email@example.com"
-              github="https://github.com/your-username"
-              linkedin="https://www.linkedin.com/in/your-profile"
+              email="sulaimondosu988@gmail.com"
+              github="https://github.com/DosuFE/"
             />
           </section>
 
