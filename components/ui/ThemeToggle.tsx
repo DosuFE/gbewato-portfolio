@@ -31,16 +31,12 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({ ariaLabel }) => {
           className={`transition-opacity ${
             !isDark ? "opacity-100 text-slate-100" : "opacity-40"
           }`}
-        >
-          Light
-        </span>
+        ></span>
         <span
           className={`transition-opacity ${
             isDark ? "opacity-100 text-slate-100" : "opacity-40"
           }`}
-        >
-          Dark
-        </span>
+        ></span>
       </span>
     </button>
   );

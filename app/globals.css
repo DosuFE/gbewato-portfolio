@@ -17,7 +17,7 @@
   --accent: #2563eb;
   --accent-soft: rgba(37, 99, 235, 0.08);
   --accent-strong: #1d4ed8;
-  --chip-bg: rgba(255, 255, 255, 0.9);
+  /* --chip-bg: rgba(255, 255, 255, 0.9); */
 }
 
 :root[data-theme="dark"] {
@@ -109,7 +109,7 @@ body {
 }
 
 .chip {
-  background-color: var(--chip-bg);
+  /* background-color: var(--chip-bg); */
   border: 1px solid rgba(148, 163, 184, 0.4);
   backdrop-filter: blur(16px);
 }

@@ -20,8 +20,6 @@ const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 const THEME_STORAGE_KEY = "portfolio-dashboard-theme";
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  // Important: use a deterministic initial value for SSR + hydration.
-  // We then "upgrade" to the stored or preferred theme on the client.
   const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {

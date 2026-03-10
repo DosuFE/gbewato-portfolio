@@ -16,13 +16,13 @@ export const Hero: React.FC<HeroProps> = ({
   techStack,
 }) => {
   return (
-    <div className="card-surface relative overflow-hidden rounded-2xl px-5 py-6 sm:px-7 sm:py-7 lg:px-8 lg:py-8">
-      <div className="pointer-events-none absolute inset-0 opacity-60 mix-blend-screen">
+    <main className="card-surface relative overflow-hidden rounded-2xl px-5 py-6 sm:px-7 sm:py-7 lg:px-8 lg:py-8">
+      <section className="pointer-events-none absolute inset-0 opacity-60 mix-blend-screen">
         <div className="absolute -left-20 -top-24 h-44 w-44 rounded-full bg-sky-500/40 blur-3xl" />
         <div className="absolute -bottom-24 right-0 h-52 w-52 rounded-full bg-indigo-500/35 blur-3xl" />
-      </div>
+      </section>
 
-      <div className="relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+      <section className="relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
         <div className="max-w-xl space-y-3 sm:space-y-4">
           <span className="inline-flex items-center gap-2 rounded-full bg-slate-900/70 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-sky-300">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_0_4px_rgba(34,197,94,0.35)]" />
@@ -90,8 +90,8 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 
