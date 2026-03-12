@@ -65,6 +65,14 @@ const projects = [
     githubUrl: "https://github.com/DosuFE/skincare-ecommerce",
     liveUrl: "https://skincare-ecommerce-mvp.vercel.app/",
   },
+  {
+    title: "Bookmark Manager App",
+    description:"A modern bookmark manager application built with Next.js that helps users organize, manage, and quickly access their favorite websites in one place. The app provides a clean and intuitive interface for saving bookmarks with detailed information, making it easy to categorize, search, and revisit important links. Users can add new bookmarks by providing a title, description, website URL, and tags for better organization. All saved bookmarks can be viewed in a centralized dashboard where users can access detailed information including the website favicon, title, URL, description, tags, view count, last visited date, and date added.",
+    techStack: ["Next.js", "Tailwind CSS"],
+    image: "/bookmark.png",
+    githubUrl: "https://github.com/DosuFE/bookmark-manager",
+    liveUrl: "https://bookmark-manager-app-nine.vercel.app/",
+  },
 ];
 
 export default function Home() {
