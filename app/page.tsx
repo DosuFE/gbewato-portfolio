@@ -73,6 +73,14 @@ const projects = [
     githubUrl: "https://github.com/DosuFE/bookmark-manager",
     liveUrl: "https://bookmark-manager-app-nine.vercel.app/",
   },
+  {
+    title: "Crypto Dashboard Api",
+    description: "A responsive cryptocurrency dashboard built with Next.js that fetches real-time data from the CoinGecko API. It displays current prices, market trends, and detailed information for various cryptocurrencies in a clean and user-friendly interface.",
+    techStack: ["Next.js", "Tailwindcss", "CoinGecko Api"],
+    image: "/crypto-dashboard.png",
+    githubUrl: "https://github.com/DosuFE/crypto-dashboard",
+    liveUrl: "https://crypto-dashboard-one-navy.vercel.app/"
+  }
 ];
 
 export default function Home() {
