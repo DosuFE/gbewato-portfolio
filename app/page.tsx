@@ -26,6 +26,10 @@ const skills = [
   { name: "JavaScript", level: 90 },
   { name: "React", level: 85 },
   { name: "Next.js", level: 80 },
+  { name: "NestJS", level: 60 },
+  { name: "PostgreSQL", level: 80 },
+  { name: "MongoDB", level: 60 },
+  { name: "Git & GitHub", level: 90 }
 ] as const;
 
 const projects = [
@@ -80,6 +84,14 @@ const projects = [
     image: "/crypto-dashboard.png",
     githubUrl: "https://github.com/DosuFE/crypto-dashboard",
     liveUrl: "https://crypto-dashboard-one-navy.vercel.app/"
+  },
+  {
+    title: "Learning & Assessment Management Portal (LAMP)",
+    description: "A full-stack Learning & Assessment Management Portal (LAMP) designed to manage courses, lectures, and CBT-based examinations in a modern and scalable way. The portal features a React (NextJs) frontend for an intuitive user experience and a NestJS backend for robust API management. It includes functionalities for course creation, lecture management, and CBT exam administration, and webcam integration making it an ideal solution for educational institutions looking to streamline their learning and assessment processes.",
+    techStack: ["Next.js", "React", "Tailwind CSS", "NestJS", "PostgreSQL"],
+    image: "/lamp.png",
+    githubUrl: "https://github.com/DosuFE/lamp",
+    liveUrl: "https://lamp-chi-six.vercel.app/"
   }
 ];
 
@@ -104,9 +116,9 @@ export default function Home() {
           <section id="hero" className="scroll-mt-24">
             <Hero
               name="Dosu Sulaiman Gbewato"
-              role="Frontend Developer"
-              description="Frontend-focused developer currently learning backend technologies with NestJS, crafting modern interfaces with React, Next.js, and Tailwind CSS."
-              techStack={["Next.js", "React", "Tailwind CSS", "JavaScript", "HTML", "CSS", "NestJS"]}
+              role="Fullstack Developer"
+              description="Fullstack developer with a passion for crafting clean, efficient, and user-friendly web applications. I specialize in frontend development using React and Next.js, and I'm currently expanding my skills in backend development with NestJS."
+              techStack={["Next.js", "React", "Tailwind CSS", "JavaScript", "HTML", "CSS", "NestJS", "PostgreSQL", "REST APIs", "MongoDB", "Git & GitHub"]}
             />
           </section>
 
