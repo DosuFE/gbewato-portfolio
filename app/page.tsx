@@ -87,8 +87,8 @@ const projects = [
   },
   {
     title: "Learning & Assessment Management Portal (LAMP)",
-    description: "A full-stack Learning & Assessment Management Portal (LAMP) designed to manage courses, lectures, and CBT-based examinations in a modern and scalable way. The portal features a React (NextJs) frontend for an intuitive user experience and a NestJS backend for robust API management. It includes functionalities for course creation, lecture management, and CBT exam administration, and webcam integration making it an ideal solution for educational institutions looking to streamline their learning and assessment processes.",
-    techStack: ["Next.js", "React", "Tailwind CSS", "NestJS", "PostgreSQL"],
+    description: "A full-stack Learning & Assessment Management Portal (LAMP) designed to manage courses, lectures, and CBT-based examinations in a modern and scalable way. The portal features a React (NextJs) frontend for an intuitive user experience, using TanStack Query for data fetching, and a NestJS backend for robust API management, using pipes, zod for validation. It includes functionalities for course creation, lecture management, and CBT exam administration, and webcam integration making it an ideal solution for educational institutions looking to streamline their learning and assessment processes.",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "NestJS", "Pipes", "zod", "TypeOrm", "PostgreSQL"],
     image: "/lamp.png",
     githubUrl: "https://github.com/DosuFE/lamp",
     liveUrl: "https://lamp-chi-six.vercel.app/"
@@ -118,7 +118,7 @@ export default function Home() {
               name="Dosu Sulaiman Gbewato"
               role="Fullstack Developer"
               description="Fullstack developer with a passion for crafting clean, efficient, and user-friendly web applications. I specialize in frontend development using React and Next.js, and I'm currently expanding my skills in backend development with NestJS."
-              techStack={["Next.js", "React", "Tailwind CSS", "JavaScript", "HTML", "CSS", "NestJS", "PostgreSQL", "REST APIs", "MongoDB", "Git & GitHub"]}
+              techStack={["Next.js", "React", "TanStack Query", "Tailwind CSS", "JavaScript", "HTML", "CSS", "NestJS", "PostgreSQL", "REST APIs", "MongoDB", "Git & GitHub"]}
             />
           </section>
 
