@@ -158,7 +158,7 @@ export default function Home() {
             />
           </section>
 
-          <Footer text="© 2026 Your Name. Built with Next.js, React & Tailwind CSS." />
+          <Footer text="© 2026 Dosu, Sulaiman Gbewato. Built with Next.js, React & Tailwind CSS." />
         </main>
       </div>
     </div>
